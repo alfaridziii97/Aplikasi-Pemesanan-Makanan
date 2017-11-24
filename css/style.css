@@ -451,11 +451,13 @@ img.img-full-width {
   border: none;
   border-radius: 0;
   background-color: rgb(48,48,48);
+  height: 60px;
 }
 #shinju-navbar .navbar-brand {
   color: #fff;
   font-weight: 700;
   font-size: 20px;
+  margin-top: 5px;
 }
 #shinju-navbar .navbar-nav > li > a {
   color: #fff;
@@ -474,6 +476,7 @@ img.img-full-width {
 }
 #shinju-navbar .shinju-menuItem {
   float: right;
+  margin-top: 3px;
 }
 #shinju-navbar .shinju-iconsGroup li a {
   border: none;
@@ -491,7 +494,9 @@ img.img-full-width {
 #shinju-navbar .navbar-toggle .icon-bar {
   background: #fff;
 }
-
+.logo{
+  margin-top: 5px;
+}
 /* =============== LAYOUT - CONTENT AREA =============== */
 section {
   padding: 80px 0;
@@ -823,10 +828,10 @@ section {
     background: #4099FF;
 }
 .social-fo li a.pin {
-    background: #CD2830;
+    background: #008000;
 }
 .social-fo li a.dri {
-    background:#E35E90;
+    background:#DC143C;
 }
 .address {
     margin-top: 2em;

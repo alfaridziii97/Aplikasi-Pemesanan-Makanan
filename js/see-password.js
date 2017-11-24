@@ -1,11 +1,11 @@
 $("#password").on("keyup",function(){
     if($(this).val())
-        $(".glyphicon-eye-open").show();
+        $(".fa-eye").show();
     else
-        $(".glyphicon-eye-open").hide();
+        $(".fa-eye").hide();
     });
 
-$(".glyphicon-eye-open").mousedown(function(){
+$(".fa-eye").mousedown(function(){
                 $("#password").attr('type','text');
             }).mouseup(function(){
                 $("#password").attr('type','password');
