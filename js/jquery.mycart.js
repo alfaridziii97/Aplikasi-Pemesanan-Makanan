@@ -185,8 +185,8 @@
         '<table class="table table-hover table-responsive" id="' + idCartTable + '"></table>' +
         '</div>' +
         '<div class="modal-footer">' +
-        '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>' +
-
+        '<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>' +
+        '<button type="button" class="btn btn-success" data-dismiss="modal">Confirm</button>' +
         '</div>' +
         '</div>' +
         '</div>' +
