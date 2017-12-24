@@ -447,6 +447,8 @@ section {
 #about .content .nino-icon {
 	display: block;
 	font-size: 30px;
+	padding: 10px 5px 5px;
+
 }
 /* =============== SECTION COUNTING =============== */
 #counting {
@@ -697,7 +699,7 @@ section {
 /* =============== SECTION HAPPY CLIENT =============== */
 #feedback {
 	margin-top: 30px;
-	background: url(../image/feedback/bg-happy-client.jpg) no-repeat center center / cover;
+	background: url(../image/ulasan/bg-happy-client.jpg) no-repeat center center / cover;
 }
 #feedback .item {
 	margin-bottom: 30px;
@@ -1179,7 +1181,6 @@ div.pp_default .pp_social {
 		padding-right: 80px;
 	}
 	#nino-navbar .navbar-nav > li > a {
-		padding: 10px 5px 5px;
 	}
 	#nino-navbar .navbar-nav > li > a:hover, 
 	#nino-navbar .navbar-nav > .active > a, 

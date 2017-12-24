@@ -23,6 +23,24 @@
 <script src="../js/metisMenu.min.js"></script>
 <script src="../js/custom.js"></script>
 <script type='text/javascript'>
+    $(document).on('click','input[type=button]', function() {
+               buttonVal = $(this).val();
+    if(buttonVal == 'Pilih' )
+    {
+        $(this).prop("disabled", true);
+        $('#closeButton').prop("disabled", false);
+        $(this).prop("hidden", true);
+        $('#closeButton').prop("hidden", false);
+    }
+    else
+    {
+         $('#closeButton').prop("disabled", true);
+         $('#closeButton').prop("hidden", true);
+         $('#openButton').prop("disabled", false);
+         $('#openButton').prop("hidden", false);
+    }
+});
+
    var toggle = true;
         function changeColor()
         {
@@ -33,8 +51,14 @@
         }
 
     $(document).ready(function() {
-     $("#tombol").click(function() {
+     $("#openButton").click(function() {
        $("#ket").text("NA");
+     }) 
+   });
+
+    $(document).ready(function() {
+     $("#closeButton").click(function() {
+       $("#ket").text("Tersedia");
      }) 
    });
 </script>
@@ -119,8 +143,8 @@
                         </div>
                         <br>
                         <center>
-                        <BUTTON onClick="changeColor()" id="tombol">Non Aktifkan</BUTTON>
-                        <BUTTON onClick="changeColor1()" id="tombol">Aktifkan</BUTTON>
+                        <input type="button" onclick="changeColor()" value="Pilih" id="openButton" name="openButton">
+                        <input type="button" onclick="changeColor()" value="Buka" id="closeButton" name="closeButton" hidden="true" disabled="disabled">
                         </center>
                         <br>
                     </div>
@@ -139,7 +163,8 @@
                         </div>
                         <br>
                         <center>
-                        <BUTTON onClick="changeColor()" id="tombol">Non Aktifkan</BUTTON>
+                        <input type="button" onclick="changeColor()" value="Pilih" id="openButton" name="openButton">
+                        <input type="button" onclick="changeColor()" value="Buka" id="closeButton" name="closeButton" hidden="true" disabled="disabled">
                         </center>
                         <br>
                     </div>

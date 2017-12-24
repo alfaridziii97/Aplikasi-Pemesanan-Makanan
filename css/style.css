@@ -696,7 +696,7 @@ section {
   width: 200px;
   position: relative;
   float: right;
-  margin-right: 130px;
+  margin-right: 50px;
   margin-top: 10px;
 }
 .cart{
@@ -1603,6 +1603,55 @@ span.fa.fa-shopping-cart.my-cart-icon {
     vertical-align: baseline;
     background-color: #FAB005;
     border-radius: 10px;
+    z-index: 9999;
+}
+
+@media (max-width: 768px) {
+
+.modal-dialog {
+    width: 350px;
+    margin: 30px auto;
+}
+.modal-spa {
+    width: 350px;
+    height: 100%;
+}
+.modal-info{
+  width: 350px;
+  height: 700px;
+}
+.modal-header{
+  width: 350px;
+}
+.product{
+  height: 100%;
+}
+.input-cari{
+  left: 20px;
+  width: 180px;
+}
+.tabs li{
+  width: 70px; height: 50px;
+  font-size: 13px;
+  }
+.tabs li a{
+  height: 50px;
+  font-size: 13px;
+  right: 10px;
+  }
+.nav > li > a:hover{
+  width: 70px;
+  height: 50px;
+  font-size: 13px;
+  right: 0px;
+}
+ul.nav.tabs{
+  text-align: center;
+}
+.nav-sidebar{
+  width: 100%;
+}
+
 }
 
 /*--content--*/
