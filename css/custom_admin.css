@@ -16,6 +16,10 @@
     }
 }
 
+.form-control{
+    border: 1;
+}
+
 .navbar-top-links {
     margin-right: 0;
 }
